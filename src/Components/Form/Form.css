@@ -1,0 +1,40 @@
+.form-wrapper > h1 {
+    padding: 15px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    position: relative;
+    flex-direction: column;
+}
+
+.input-container {
+    width: 60%;
+    position: relative;
+}
+
+.todoinput {
+    width: 100%;
+    padding: 15px 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 17px;
+}
+
+.todoinput::placeholder {
+    font-size: 14px;
+}
+
+.iconsadd {
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

@@ -1,0 +1,11 @@
+.todo {
+    width: 900px;
+    height: 550px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; */
+    position: relative;
+    position: absolute;
+    z-index: 9;
+}
+
