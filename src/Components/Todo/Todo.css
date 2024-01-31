@@ -9,3 +9,12 @@
     z-index: 9;
 }
 
+@media screen and (max-width: 430px) {
+    .todo {
+        width: 350px;
+        height: 90%;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+}
+
