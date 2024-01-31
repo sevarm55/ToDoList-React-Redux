@@ -83,11 +83,15 @@
         height: 150px;
     }
     .todo-list {
-        height: 65%;
+        height: 60%;
         align-items: flex-start;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         flex-wrap: nowrap;
+    }
+    todo-list-item i {
+        position: relative;
+        top: 0;
     }
 }
